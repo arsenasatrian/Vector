@@ -14,7 +14,7 @@ public:
 	MyVector(MyVector&&);//move ctor
 	MyVector& operator=(const MyVector&);//copy assignment
 	MyVector& operator=(MyVector&&);//move assignment
-	~MyVector();
+	virtual ~MyVector();
 	
 
 	void pushBack(const T& data);
